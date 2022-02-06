@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  padding: 40px;
+  color: #fff;
+  background: url('https://c4.wallpaperflare.com/wallpaper/408/387/715/dark-3d-red-shards-wallpaper-preview.jpg');
+}
+
+.animate-in {
+  transform: translateY(-500px);
+  transition: 1s;
+}
+
+.center {
+  margin: auto;
+}
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  min-height: 50px;
+  background-color: #111;
+  padding: 40px;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+  img {
+    width: 60%;
+    border: solid 8px #eaeaea;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin: 0.6rem 0 0 0;
+    text-align: center;
+    font-family: Heebo, Helvetica, sans-serif;
+  }
+  
+  h2 {
+    margin-top: 0;
+    text-align: center;
+    font-family: Heebo, Helvetica, sans-serif;
+    font-weight: 300
+  }
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  a {
+    margin: 0 0.5rem;
+    font-size: 2rem;
+    color: #333;
+    transition: .2s;
+    
+    &:hover {
+      color: #000;
+    }
+    
+    &.twitter {
+      &:hover {
+        color: #1da1f2;
+      }
+    }
+    
+    &.youtube {
+      &:hover {
+        color: #FF0000;
+      }
+    }
+&.instagram {
+      &:hover {
+        color: #8a3ab9;
+      }
+    }
+&.facebook {
+      &:hover {
+        color: #F5F5F5;
+      }
+    }
+&.telegram {
+      &:hover {
+        color: #229ED9;
+      }
+    }
+  }
+}
